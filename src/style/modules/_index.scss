@@ -1,0 +1,36 @@
+//body {
+//  background-color: #03092a;
+//}
+
+/*------------------------------------------------header*/
+.container__header {
+  max-width: 1590px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+.header__body {
+   display: flex;
+ }
+.navbar {
+  padding: 25px 0;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  //justify-content: space-around;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.menu-item a {
+  color:red;
+}
+/*------------------------------------------------section__security*/
+.section__security {
+  padding: 150px 0 20px;
+  color: #ffffff;
+}
